@@ -1,37 +1,37 @@
 # AppTravel — Travel Ticket Booking System
 
-AppTravel adalah aplikasi **pemesanan tiket travel (bus/shuttle)** yang dibangun menggunakan **Flutter** untuk frontend dan **Golang (Gin Framework)** untuk backend API.  
+AppTravel adalah aplikasi **pemesanan tiket travel (bus/shuttle)** yang dibangun menggunakan **Flutter** untuk frontend dan **Golang (Gin Framework)** untuk backend API. 
 Proyek ini dikembangkan sebagai inisiatif pribadi untuk memperdalam pemahaman tentang **arsitektur full-stack**, **autentikasi pengguna**, dan **manajemen tiket berbasis REST API**.
 
 ---
 
 ## Struktur Project
 
-apptravel/
-├── android/       # Source code untuk platform Android
-├── ios/           # Source code untuk platform iOS
-├── linux/         # Support untuk Linux build (Flutter)
-├── macos/         # Support untuk macOS build (Flutter)
-├── windows/       # Support untuk Windows build (Flutter)
-├── web/           # Support untuk web build (Flutter)
-│
-├── lib/           # Kode utama aplikasi Flutter (frontend)
-├── assets/        # Asset gambar/icon aplikasi
-│
-├── backend/       # Backend API (Golang)
-│ ├── controllers/ # Logic dari masing-masing endpoint
-│ ├── middleware/  # Middleware API Key & JWT
-│ ├── routes/      # Definisi semua route endpoint
-│ ├── models/      # Struktur data dan koneksi database (planned)
-│ └── main.go      # Entry point backend server
-│
-├── go.mod         # Modul Go untuk backend
-├── go.sum         # Dependensi Go
-│
-├── pubspec.yaml   # Konfigurasi dependencies Flutter
-├── pubspec.lock   # Lock file Flutter
-├── build/         # Folder hasil build Flutter
-└── README.md      # Dokumentasi proyek
+apptravel/  
+├── android/       # Source code untuk platform Android  
+├── ios/           # Source code untuk platform iOS  
+├── linux/         # Support untuk Linux build (Flutter)  
+├── macos/         # Support untuk macOS build (Flutter)  
+├── windows/       # Support untuk Windows build (Flutter)  
+├── web/           # Support untuk web build (Flutter)  
+│  
+├── lib/           # Kode utama aplikasi Flutter (frontend)  
+├── assets/        # Asset gambar/icon aplikasi  
+│  
+├── backend/       # Backend API (Golang)  
+│ ├── controllers/ # Logic dari masing-masing endpoint  
+│ ├── middleware/  # Middleware API Key & JWT  
+│ ├── routes/      # Definisi semua route endpoint  
+│ ├── models/      # Struktur data dan koneksi database (planned)  
+│ └── main.go      # Entry point backend server  
+│  
+├── go.mod         # Modul Go untuk backend  
+├── go.sum         # Dependensi Go  
+│  
+├── pubspec.yaml   # Konfigurasi dependencies Flutter  
+├── pubspec.lock   # Lock file Flutter  
+├── build/         # Folder hasil build Flutter  
+└── README.md      # Dokumentasi proyek  
 
 
 ---
@@ -108,7 +108,7 @@ cd apptravel
 flutter pub get
 flutter run
 
----
+```
 
 ## Tentang Developer
 Saya adalah seorang Back End Developer pemula yang sedang belajar membangun aplikasi end-to-end (Flutter + Go).
@@ -117,14 +117,16 @@ RESTful API Design
 Authentication & Authorization
 Database Integration
 Clean Code & Modular Structure
-UI/UX : https://www.figma.com/design/ekdujmsA62Oq0CW0Cu3hah?node-id=0-1
-Status: Dalam Pengembangan
-Kontak: dedeeapr17@gmail.com
-*Terbuka untuk kolaborasi dalam pengembangan
+
+UI/UX : https://www.figma.com/design/ekdujmsA62Oq0CW0Cu3hah?node-id=0-1  
+Status: Dalam Pengembangan  
+Kontak: dedeeapr17@gmail.com  
+GitHub: https://github.com/dee2dee/apptravel  
+*Terbuka untuk kolaborasi dalam pengembangan  
 
 ---
 
 ## Lisensi
-Proyek ini dikembangkan untuk tujuan pembelajaran dan pengembangan pribadi.
+Proyek ini dikembangkan untuk tujuan pembelajaran dan pengembangan pribadi.  
 Bebas digunakan sebagai referensi atau bahan belajar dengan mencantumkan atribusi yang sesuai.
 
